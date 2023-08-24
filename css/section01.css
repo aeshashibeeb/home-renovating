@@ -1,0 +1,25 @@
+.section01{
+    background-color:#f1c50e;
+    text-align: center;
+}
+.section01 .home-box{
+    background-color: #fff;
+    padding:20px 30px ;
+    margin-top: -50px;
+    margin-bottom: 70px;
+}
+.section01 .home-box img{
+    border: 10px solid #f1c40e;
+    border-radius:50% ;
+}
+.section01 .home-box h5{
+    color:#f1c50e;
+    font-size: medium;
+    font-weight: 900;
+    margin:20px ;
+}
+.section01 .home-box p{
+    color: #5c5b5b;
+    font-weight: 200;
+    opacity: 0.8;
+}

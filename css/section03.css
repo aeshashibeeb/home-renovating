@@ -1,0 +1,32 @@
+.section03{
+    background-image: url("../pic/bfmin.png");
+    background-size:cover;
+}
+.section03 .sec03-main div{
+    background-color: #f1c50e;
+    margin: 70px 0 30px ;
+    padding: 0px 10px 20px 20px;
+}
+.section03 .sec03-main div h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+}
+.section03 .sec03-main div h1{
+    color: #000;
+    font-weight:800;
+    font-size: 70px;
+}
+.section03 .sec03-main p{
+    color: #fff;
+    margin-bottom: 80px;
+}
+.section03 .sec03-main p a{
+    color: #f1c50e;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+}
+.section03 .sec03-main p a:hover{
+    color: #c19d0d;
+}

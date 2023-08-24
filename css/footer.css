@@ -1,0 +1,89 @@
+footer{
+    background-color: #1a1a1a;
+}
+footer .footer-main{
+    margin-top: 50px;
+}
+footer .footer-main .left-foot{
+    position: relative;
+}
+footer .footer-main .left-foot .foot-box{
+    background-color: #f1c50e;
+    padding: 40px 30px;
+    box-shadow: 0 0 10px 0 #444 ;
+    position: absolute;
+    right: -120px;
+    top: 55px;
+}
+footer .footer-main .left-foot .foot-box h4{
+    font-weight: bolder;
+    font-size:18px ;
+    color: #000;
+}
+footer .footer-main .left-foot .foot-box p{
+    color: #000;
+    opacity: 0.9;
+    padding: 10px 0;
+}
+footer .footer-main .foot-card{
+    background-color: #fff;
+}
+footer .footer-main .right-foot .foot-card form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 80px 30px 80px 200px ;
+    width: fit-content;
+    height: fit-content;
+}
+footer .footer-main .right-foot .foot-card form input ,footer .footer-main .right-foot .foot-card form textarea{
+    border: none;
+    padding: 20px 15px 10px;
+}
+footer .footer-main .right-foot .foot-card form input::placeholder ,footer .footer-main .right-foot .foot-card form textarea::placeholder{
+    opacity: 0.8;
+}
+footer .footer-main .right-foot .foot-card form hr{
+    width: 480px;
+    border:1px solid #000000;
+    height: 1px;
+    color: #000;
+    opacity: initial;
+    margin: 0;
+}
+footer .footer-main .right-foot .foot-card form button{
+    background-color: #fff;
+    padding: 12px 20px;
+    border: 2px solid  #000;
+    color: #000;
+    font-size: 17px;
+    opacity:0.9 ;
+    margin:10px 0 50px;
+    padding: 10px 30px ;
+    width: fit-content;
+}
+footer .footer-main .right-foot .foot-card form button:hover{
+    border: none;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    padding:0 15px;
+}
+footer .foot{
+    background-color: #313131;
+    color: #fff;
+    font-size: small;
+}
+footer .foot a{
+    color: #f1c50e;
+}
+footer .foot a:hover{
+    color: #d7af0d;
+    text-decoration: none;
+}

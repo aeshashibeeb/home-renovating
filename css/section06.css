@@ -1,0 +1,59 @@
+.section06 .sec06-left{
+    background-color: #e5e5e5;
+    position: relative;
+}
+.section06 .sec06-left .one{
+    background-color: #f1c50e;
+    width: 65%;
+    height: 55%;
+    position: absolute;
+    top: 20px;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+.section06 .sec06-left .two{
+    background-image: url('../pic/woman.png');
+    background-size: cover;
+    width: 65%;
+    height: 55%;
+    position: absolute;
+    right:-110px ;
+    top: 100px;
+}
+.section06 .sec06-right h1{
+    font-weight: 700;
+    font-size: 50px;
+    margin: 50% 0 35px;
+}
+.section06 .sec06-right > p{
+    opacity: 0.8;
+}
+.section06 .sec06-right p.last-parg{
+    color: #d76363;
+    font-style: italic;
+    
+}
+.section06 .sec06-right p.last-parg a{
+    color: #f1c50e;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+}
+.section06 .sec06-right p.last-parg a:hover{
+    color: #c19d0d;
+}
+.section06 .sec06-right button{
+    background-color: #fff;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border: 2px solid  #1a1a1a;
+    color: #1a1a1a;
+    font-size: 15px;
+    font-weight:100;
+    letter-spacing: 1.5px;
+    opacity: 0.9;
+    margin:10px 0 150px;
+}
+.section06 .sec06-right button:hover{
+    border: none;
+}

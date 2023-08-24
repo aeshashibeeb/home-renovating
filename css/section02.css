@@ -1,0 +1,28 @@
+.section02{
+    background-color: #dadada;
+    text-align: center;
+}
+.section02 h1{
+    color: #000;
+    font-size: 70px;
+    font-weight: 500;
+    margin: 70px auto 40px;
+}
+.section02 p{
+    font-size: larger;
+    line-height: 2;
+}
+.section02 button{
+    background-color: #f1c50e;
+    text-transform: uppercase;
+    padding: 13px 40px;
+    color:#000000 ;
+    border: none;
+    font-size: 15px;
+    font-weight:100;
+    letter-spacing: 1.5px;
+    margin: 20px auto 70px;
+}
+.section02 button:hover{
+    background-color:#d8b114;
+}

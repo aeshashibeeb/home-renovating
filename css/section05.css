@@ -1,0 +1,45 @@
+.section05{
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+}
+.section05 .sec05-main h1{
+    font-size: 38px;
+    font-weight: 600;
+    margin: 70px 0 25px ;
+}
+.section05 .sec05-main > p{
+    opacity: 0.5;
+    font-size: large;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+.section05 .sec05-main .sec05-card{
+    text-align: start;
+    padding: 10px 40px 90px;
+}
+.section05 .sec05-main .sec05-card h3{
+    color: #f1c50e;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.section05 .sec05-main .sec05-card p{
+    letter-spacing: 1.2px;
+    font-style: italic;
+    opacity: 0.9;
+}
+.section05 .sec05-main button{
+    background-color: #1a1a1a;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border: 2px solid  #f1c50e;
+    color: #f1c50e;
+    font-size: 15px;
+    font-weight:100;
+    letter-spacing: 1.5px;
+    opacity: 0.9;
+    margin-bottom: 60px;
+}
+.section05 .sec05-main button:hover{
+    border: none;
+}
