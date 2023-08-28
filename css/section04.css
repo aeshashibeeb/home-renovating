@@ -14,7 +14,17 @@
 .section04 .sec04-main p{
     color: #000;
     opacity: 0.9;
-    width: 500px;
+    width: 48%;
+}
+@media (max-width:1100px){
+    .section04 .sec04-main p{
+        width: 70%;
+    }
+}
+@media (max-width:940px){
+    .section04 .sec04-main p{
+        width: 95%;
+    }
 }
 .section04 .sec04-main .sec04-card{
     background-color: #fbfbfbf8;
