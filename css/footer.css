@@ -95,13 +95,22 @@ footer .foot a:hover{
     }
 }
 @media (max-width:767px){
+    /* footer .footer-main .left-foot{
+        position:none
+    } */
+    footer .footer-main .row{
+        flex-direction: column;
+        margin-top:200px;
+    }
     footer .footer-main .left-foot{
-        width: 100%;
-
+       width: 150%;
     }
     footer .footer-main .left-foot .foot-box{
+        width: 80%;
+        text-align: center;
         position: absolute;
-        right: -55px;
-        top: 55px;
+        right: auto;
+        top: -140px;
+        margin-left: 8%;
     }
 }
