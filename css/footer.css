@@ -111,6 +111,30 @@ footer .foot a:hover{
         margin-left: 8%;
     }
 }
+@media (width:576px){
+    footer .footer-main .right-foot{
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer .footer-main .right-foot .foot-card form input ,footer .footer-main .right-foot .foot-card form textarea{
+        min-width: 180%;
+        margin-left: 0;
+    }
+}
+@media (width:575px){
+    footer .footer-main .right-foot{
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer .footer-main .right-foot .foot-card form input ,footer .footer-main .right-foot .foot-card form textarea{
+        min-width: 0;
+        margin-left: 0;
+    }
+}
 @media (max-width:575px){
     footer .footer-main .right-foot{
         text-align: center;
@@ -119,6 +143,6 @@ footer .foot a:hover{
         margin-right: auto;
     }
     footer .footer-main .right-foot .foot-card form input ,footer .footer-main .right-foot .foot-card form textarea{
-        min-width: max-content;
+        min-width: fit-content;
     }
 }
