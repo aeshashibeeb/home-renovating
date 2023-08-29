@@ -15,17 +15,6 @@ footer .footer-main .left-foot .foot-box{
     right: -120px;
     top: 55px;
 }
-@media (max-width:992px) {
-    footer .footer-main .left-foot{
-        width: 100%;
-        height: 400px;
-    }
-    footer .footer-main .left-foot .foot-box{
-        position: absolute;
-        right: 0;
-        top: -100px;
-    }
-}
 footer .footer-main .left-foot .foot-box h4{
     font-weight: bolder;
     font-size:18px ;
@@ -90,4 +79,29 @@ footer .foot a{
 footer .foot a:hover{
     color: #d7af0d;
     text-decoration: none;
+}
+@media (max-width:992px) {
+    footer .footer-main .left-foot{
+        justify-content:start;
+    }
+    footer .footer-main .left-foot .foot-box{
+        position: absolute;
+        right: -55px;
+        top: 55px;
+    }
+    footer .footer-main .right-foot .foot-card form input ,footer .footer-main .right-foot .foot-card form textarea{
+        margin-left: -50px;
+        min-width: 170%;
+    }
+}
+@media (max-width:767px){
+    footer .footer-main .left-foot{
+        width: 100%;
+
+    }
+    footer .footer-main .left-foot .foot-box{
+        position: absolute;
+        right: -55px;
+        top: 55px;
+    }
 }
