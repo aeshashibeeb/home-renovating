@@ -20,6 +20,21 @@
     right:-110px ;
     top: 100px;
 }
+@media (max-width:992px){
+    .section06 .sec06-left .one{
+        width: 90%;
+        right: -50px;
+    }
+    .section06 .sec06-left .two{
+        width: 90%;
+        top:120px;
+    }
+}
+@media (max-width:767px){
+    .section06 .sec06-left .one , .section06 .sec06-left .two{
+        display: none;
+    }
+}
 .section06 .sec06-right h1{
     font-weight: 700;
     font-size: 50px;
