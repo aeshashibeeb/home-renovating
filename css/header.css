@@ -102,4 +102,10 @@ header .haeder-main .right-head img{
     bottom:-180px;
     right:20px ;
 }
+@media (max-width:1290px) {
+    header .haeder-main .right-head img{
+        bottom:-180px;
+        right:-35px;
+    }
+}
 
