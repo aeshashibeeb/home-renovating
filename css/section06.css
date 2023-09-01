@@ -20,6 +20,11 @@
     right:-110px ;
     top: 100px;
 }
+@media (max-width:1277px){
+    .section06 .sec06-left .two{
+        top:70px;
+    }
+}
 @media (max-width:992px){
     .section06 .sec06-left .one{
         width: 90%;
