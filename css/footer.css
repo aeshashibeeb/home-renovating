@@ -62,6 +62,16 @@ footer .footer-main .right-foot .foot-card form button:hover{
     display: flex;
     justify-content: space-between;
 }
+@media (max-width:900px){
+    .logo{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .links{
+        width: 75%;
+        padding-right: 50px;
+    }
+}
 .logo a{
     color: #fff;
     text-decoration: none;
