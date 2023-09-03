@@ -112,6 +112,9 @@ footer .foot a:hover{
     footer .footer-main .left-foot{
        width: 150%;
     }
+    footer .footer-main .right-foot form{
+        margin-top: 50px;
+    }
     footer .footer-main .left-foot .foot-box{
         width: 80%;
         text-align: center;
@@ -130,6 +133,7 @@ footer .foot a:hover{
     }
     footer .footer-main .right-foot form{
         width:63%;
+        margin-top: 50px;
     }
     footer .footer-main .right-foot .foot-card form input ,footer .footer-main .right-foot .foot-card form textarea{
         min-width: 180%;
