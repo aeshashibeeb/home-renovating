@@ -116,4 +116,12 @@ header .haeder-main .right-head img{
         right:40px;
     }
 }
+@media (max-width:776px) {
+    header .haeder-main .right-head img{
+        width: 70%;
+        height: 80%;
+        bottom:-180px;
+        right:40px;
+    }
+}
 
