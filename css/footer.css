@@ -62,16 +62,6 @@ footer .footer-main .right-foot .foot-card form button:hover{
     display: flex;
     justify-content: space-between;
 }
-@media (max-width:900px){
-    .logo{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .links{
-        width: 75%;
-        padding-right: 50px;
-    }
-}
 .logo a{
     color: #fff;
     text-decoration: none;
@@ -138,5 +128,24 @@ footer .foot a:hover{
     footer .footer-main .right-foot .foot-card form input ,footer .footer-main .right-foot .foot-card form textarea{
         min-width: 180%;
         margin-left: 0;
+    }
+}
+@media (max-width:900px){
+    .logo{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .links{
+        width: 100%;
+        padding: 30px auto 0;
+        text-align: center;
+    }
+    .logo a{
+        padding: 40px 10px 0;
+    }
+    .logo img{
+        margin-left: 20px;
+        margin-bottom: 20px;
     }
 }
